@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0  Date: Sat Oct 24 20:42:41 2015
+#
+$CMP LMP7715
+D Low noise precision op amp
+$ENDCMP
+#
+$CMP LMP7721
+D Low Bias OpAmp
+$ENDCMP
+#
+#End Doc Library
