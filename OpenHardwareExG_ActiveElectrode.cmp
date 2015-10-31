@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat Oct 31 18:26:42 2015
+
+BeginCmp
+TimeStamp = /562BD6F6;
+Reference = C1;
+ValeurCmp = 1nF;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BD80D;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCCA2;
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BDFAA;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BDE68;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = CONN3_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /561BF6C8;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = electrode_pad;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BD60D;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BD6E7;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC14;
+Reference = R3;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BD99F;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5634E6E4;
+Reference = R5;
+ValeurCmp = 100;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BD13E;
+Reference = U1;
+ValeurCmp = LMP7715;
+IdModule  = SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC511;
+Reference = U2;
+ValeurCmp = LMP7721;
+IdModule  = so-8;
+EndCmp
+
+EndListe
