@@ -1,4 +1,4 @@
-update=Sat Oct 31 18:31:59 2015
+update=Sat Oct 31 21:31:28 2015
 version=1
 last_client=pcbnew
 [general]
@@ -52,10 +52,10 @@ EquName1=devcms
 version=1
 LastNetListRead=OpenHardwareExG_ActiveElectrode.net
 UseCmpFile=1
-PadDrill="    0.000000"
-PadDrillOvalY="    0.000000"
-PadSizeH="   12.700000"
-PadSizeV="   12.700000"
+PadDrill="    1.600000"
+PadDrillOvalY="    1.600000"
+PadSizeH="    1.600000"
+PadSizeV="    1.600000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -86,3 +86,4 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=electrode_pad
+LibName18=3pin_smd_erni

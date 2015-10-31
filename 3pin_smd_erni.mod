@@ -1,0 +1,79 @@
+PCBNEW-LibModule-V1  Sat Oct 31 21:27:19 2015
+# encoding utf-8
+Units mm
+$INDEX
+3PIN_SMD_ERNI
+$EndINDEX
+$MODULE 3PIN_SMD_ERNI
+Po 0 0 0 15 5635234E 00000000 ~~
+Li 3PIN_SMD_ERNI
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.35 1 1 0 0.15 N V 21 N "3PIN_SMD_ERNI"
+T1 0 -3.81 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 1.02 3.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 1.02 3.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "1" R 1.02 3.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "" R 1.95 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.265 -3.45
+$EndPAD
+$PAD
+Sh "" R 1.95 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.265 -3.45
+$EndPAD
+$PAD
+Sh "" R 1.95 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.265 -8.35
+$EndPAD
+$PAD
+Sh "" R 1.95 2.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 6.265 -8.35
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -5.69 -5.9
+$EndPAD
+$PAD
+Sh "" C 1.6 1.6 0 0 0
+Dr 1.6 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 5.69 -5.9
+$EndPAD
+$EndMODULE 3PIN_SMD_ERNI
+$EndLIBRARY

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat Oct 31 18:26:42 2015
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat Oct 31 21:30:27 2015
 
 BeginCmp
 TimeStamp = /562BD6F6;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /562BDE68;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = CONN3_SMD;
+IdModule  = 3PIN_SMD_ERNI;
 EndCmp
 
 BeginCmp
