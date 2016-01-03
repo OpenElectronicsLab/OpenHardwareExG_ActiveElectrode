@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:OpenHardwareExG_ActiveElectrode-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:opamps_OEL
 LIBS:OpenHardwareExG_ActiveElectrode-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +51,7 @@ U 1 1 561BF6C8
 P 4400 2750
 F 0 "P1" H 4480 2750 40  0000 L CNN
 F 1 "CONN_1" H 4400 2805 30  0001 C CNN
-F 2 "" H 4400 2750 60  0000 C CNN
+F 2 "electrode_pad:electrode_pad" H 4400 2750 60  0001 C CNN
 F 3 "" H 4400 2750 60  0000 C CNN
 	1    4400 2750
 	-1   0    0    -1  
@@ -64,24 +64,24 @@ U 1 1 562BC511
 P 6300 2850
 F 0 "U2" H 6300 3000 60  0000 L CNN
 F 1 "LMP7721" H 6300 2700 60  0000 L CNN
-F 2 "~" H 6300 2850 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6300 2850 60  0001 C CNN
 F 3 "~" H 6300 2850 60  0000 C CNN
 	1    6300 2850
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-OpenHardwareExG_ActiveElectrode R3
 U 1 1 562BCC14
 P 5150 2750
 F 0 "R3" V 5230 2750 40  0000 C CNN
 F 1 "100" V 5157 2751 40  0000 C CNN
-F 2 "~" V 5080 2750 30  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5080 2750 30  0001 C CNN
 F 3 "~" H 5150 2750 30  0000 C CNN
 	1    5150 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-OpenHardwareExG_ActiveElectrode #PWR01
 U 1 1 562BCC4F
 P 6250 3300
 F 0 "#PWR01" H 6250 3300 30  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 6250 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-OpenHardwareExG_ActiveElectrode #PWR03
 U 1 1 562BCC93
 P 6450 2600
 F 0 "#PWR03" H 6450 2600 30  0001 C CNN
@@ -114,12 +114,12 @@ F 3 "" H 6450 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-OpenHardwareExG_ActiveElectrode C3
 U 1 1 562BCCA2
 P 6450 2300
 F 0 "C3" H 6450 2400 40  0000 L CNN
 F 1 "1uF" H 6456 2215 40  0000 L CNN
-F 2 "~" H 6488 2150 30  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 6488 2150 30  0001 C CNN
 F 3 "~" H 6450 2300 60  0000 C CNN
 	1    6450 2300
 	1    0    0    -1  
@@ -130,40 +130,40 @@ U 1 1 562BD13E
 P 4350 3800
 F 0 "U1" H 4350 3950 60  0000 L CNN
 F 1 "LMP7715" H 4350 3650 60  0000 L CNN
-F 2 "" H 4350 3800 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4350 3800 60  0001 C CNN
 F 3 "" H 4350 3800 60  0000 C CNN
 	1    4350 3800
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-OpenHardwareExG_ActiveElectrode R1
 U 1 1 562BD60D
 P 3850 3400
 F 0 "R1" V 3930 3400 40  0000 C CNN
 F 1 "100" V 3857 3401 40  0000 C CNN
-F 2 "~" V 3780 3400 30  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3780 3400 30  0001 C CNN
 F 3 "~" H 3850 3400 30  0000 C CNN
 	1    3850 3400
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-OpenHardwareExG_ActiveElectrode R2
 U 1 1 562BD6E7
 P 4450 4500
 F 0 "R2" V 4530 4500 40  0000 C CNN
 F 1 "10k" V 4457 4501 40  0000 C CNN
-F 2 "~" V 4380 4500 30  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4380 4500 30  0001 C CNN
 F 3 "~" H 4450 4500 30  0000 C CNN
 	1    4450 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-OpenHardwareExG_ActiveElectrode C1
 U 1 1 562BD6F6
 P 4450 4750
 F 0 "C1" H 4450 4850 40  0000 L CNN
 F 1 "1nF" H 4456 4665 40  0000 L CNN
-F 2 "~" H 4488 4600 30  0000 C CNN
+F 2 "Capacitors_SMD:C_0201" H 4488 4600 30  0001 C CNN
 F 3 "~" H 4450 4750 60  0000 C CNN
 	1    4450 4750
 	0    -1   -1   0   
@@ -209,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3800 4000 3800
 $Comp
-L GND #PWR04
+L GND-RESCUE-OpenHardwareExG_ActiveElectrode #PWR04
 U 1 1 562BD728
 P 4450 4200
 F 0 "#PWR04" H 4450 4200 30  0001 C CNN
@@ -237,7 +237,7 @@ Connection ~ 3850 4500
 Wire Wire Line
 	4450 4100 4450 4200
 $Comp
-L GND #PWR05
+L GND-RESCUE-OpenHardwareExG_ActiveElectrode #PWR05
 U 1 1 562BD7FE
 P 4750 3550
 F 0 "#PWR05" H 4750 3550 30  0001 C CNN
@@ -248,12 +248,12 @@ F 3 "" H 4750 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-OpenHardwareExG_ActiveElectrode C2
 U 1 1 562BD80D
 P 4750 3250
 F 0 "C2" H 4750 3350 40  0000 L CNN
 F 1 "1uF" H 4756 3165 40  0000 L CNN
-F 2 "~" H 4788 3100 30  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 4788 3100 30  0001 C CNN
 F 3 "~" H 4750 3250 60  0000 C CNN
 	1    4750 3250
 	1    0    0    -1  
@@ -270,12 +270,12 @@ F 3 "" H 4450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-OpenHardwareExG_ActiveElectrode R4
 U 1 1 562BD99F
 P 5550 3700
 F 0 "R4" V 5630 3700 40  0000 C CNN
 F 1 "10k" V 5557 3701 40  0000 C CNN
-F 2 "~" V 5480 3700 30  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5480 3700 30  0001 C CNN
 F 3 "~" H 5550 3700 30  0000 C CNN
 	1    5550 3700
 	0    -1   -1   0   
@@ -297,7 +297,7 @@ U 1 1 562BDE68
 P 8550 2850
 F 0 "K1" V 8500 2850 50  0000 C CNN
 F 1 "CONN_3" V 8600 2850 40  0000 C CNN
-F 2 "" H 8550 2850 60  0000 C CNN
+F 2 "active_electrode_connectors:DF50A-3P-1H" H 8550 2850 60  0001 C CNN
 F 3 "" H 8550 2850 60  0000 C CNN
 	1    8550 2850
 	1    0    0    -1  
@@ -325,7 +325,7 @@ F 3 "" H 8150 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-OpenHardwareExG_ActiveElectrode #PWR09
 U 1 1 562BDED2
 P 7950 3350
 F 0 "#PWR09" H 7950 3350 30  0001 C CNN
@@ -361,12 +361,12 @@ Wire Wire Line
 	8150 2550 8150 2750
 Connection ~ 8150 2750
 $Comp
-L C C4
+L C-RESCUE-OpenHardwareExG_ActiveElectrode C4
 U 1 1 562BDFAA
 P 6750 2300
 F 0 "C4" H 6750 2400 40  0000 L CNN
 F 1 "10uF" H 6756 2215 40  0000 L CNN
-F 2 "~" H 6788 2150 30  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 6788 2150 30  0001 C CNN
 F 3 "~" H 6750 2300 60  0000 C CNN
 	1    6750 2300
 	1    0    0    -1  
@@ -382,19 +382,19 @@ Connection ~ 6450 2550
 Wire Wire Line
 	4750 3450 4750 3550
 $Comp
-L R R5
+L R-RESCUE-OpenHardwareExG_ActiveElectrode R5
 U 1 1 5634E6E4
 P 7400 2850
 F 0 "R5" V 7480 2850 40  0000 C CNN
 F 1 "100" V 7407 2851 40  0000 C CNN
-F 2 "~" V 7330 2850 30  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7330 2850 30  0001 C CNN
 F 3 "~" H 7400 2850 30  0000 C CNN
 	1    7400 2850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7650 2850 8200 2850
-Text Notes 7050 3000 0    40   ~ 0
+Text Notes 7050 3200 0    40   ~ 0
 Data sheet rec 100 ohm.\nConsider placing 0 ohm \nto see if resistor leads \nto noise.
 Text Label 6200 3700 0    30   ~ 0
 BUFFERED_INPUT
